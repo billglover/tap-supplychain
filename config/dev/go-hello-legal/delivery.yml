@@ -25,7 +25,7 @@ spec:
         carto.run/workload-name: go-hello-legal
     spec:
       containers:
-      - image: harbor.tanzu.xyz/tap/workloads/go-hello-legal-dev@sha256:d7e1853a7a101c935b1ebb5779782edf4ac4a856adbe34175eeb0eb042a33f28
+      - image: harbor.tanzu.xyz/tap/workloads/go-hello-legal-dev@sha256:0d78c5cc51eb01371ebd2db5f79fa1b697bcdb5b6716c6427fd6d34d01b48a38
         name: workload
         resources: {}
         securityContext:
