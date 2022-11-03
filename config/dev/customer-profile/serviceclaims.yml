@@ -16,7 +16,7 @@ spec:
   service:
     apiVersion: sql.tanzu.vmware.com/v1
     kind: Postgres
-    name: customer-profile-database
+    name: postgres-sample
   workload:
     apiVersion: serving.knative.dev/v1
     kind: Service
