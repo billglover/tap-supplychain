@@ -25,7 +25,7 @@ spec:
         carto.run/workload-name: go-workload-demo
     spec:
       containers:
-      - image: harbor.tanzu.xyz/tap/workloads/go-workload-demo-dev@sha256:ee53ad7efb7faed241706c24db1182f3f40f8546b378e9cc4d1eaacef9a13993
+      - image: harbor.tanzu.xyz/tap/workloads/go-workload-demo-dev@sha256:150e865e224391fa0968548cdbccea54cd89edb05435b60363f06f8a63aba570
         name: workload
         resources: {}
         securityContext:
