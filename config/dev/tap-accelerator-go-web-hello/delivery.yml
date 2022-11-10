@@ -25,7 +25,7 @@ spec:
         carto.run/workload-name: tap-accelerator-go-web-hello
     spec:
       containers:
-      - image: harbor.tanzu.xyz/tap/workloads/tap-accelerator-go-web-hello-dev@sha256:4f77df6aba3281df2fa36775b177c9e6bde46dc94351ef067d25cb9babea1e3d
+      - image: harbor.tanzu.xyz/tap/workloads/tap-accelerator-go-web-hello-dev@sha256:69fccdb71be4d2c55c9e4781cb1b77bc824cde07bb3a51ee9db22b3a5840486f
         name: workload
         resources: {}
         securityContext:
