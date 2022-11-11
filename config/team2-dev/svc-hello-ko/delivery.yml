@@ -25,7 +25,7 @@ spec:
         carto.run/workload-name: svc-hello-ko
     spec:
       containers:
-      - image: harbor.tanzu.xyz/tap/workloads/svc-hello-ko-team2-dev@sha256:24f8b0f21b8af3cdf0f313406654fc0495d46c0d0a1008d1d0e235a029df805d
+      - image: harbor.tanzu.xyz/tap/workloads/svc-hello-ko-team2-dev@sha256:84fd5e0feb4ad53389defd3f05195e76fa00dc52fd54c8e59cbd2f523d68dc8f
         name: workload
         resources: {}
         securityContext:
