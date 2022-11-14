@@ -13,9 +13,9 @@ metadata:
     carto.run/workload-name: customer-profile
 spec:
   type: openapi
-  description: An example service
-  system: customer
-  owner: user:bglover
+  description: An example REST service
+  system: customer-service
+  owner: team1
   location:
     path: /api-docs
     baseURL:
