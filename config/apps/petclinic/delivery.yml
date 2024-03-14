@@ -20,8 +20,8 @@ spec:
         autoscaling.knative.dev/minScale: "1"
         boot.spring.io/version: 3.2.0
         conventions.carto.run/applied-conventions: |-
-          appliveview-sample/app-live-view-appflavour-check
           spring-boot-convention/auto-configure-actuators-check
+          spring-boot-convention/is-native-app-check
           spring-boot-convention/spring-boot
           spring-boot-convention/spring-boot-graceful-shutdown
           spring-boot-convention/spring-boot-web
@@ -52,7 +52,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.health.probes.enabled="true" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv2-stellar-otter/petclinic-apps@sha256:8af41ce52c344c1e0f4861a8928f9f5296558214ff4ef0724475344eb0b2fef6
+        image: us-central1-docker.pkg.dev/tap-sandbox-dev/tapv2-talkative-mongoose/petclinic-apps@sha256:fc10e04fbf43dd11688ced7c4bd02d5e3e3e1d3d354f2c7b6a0a7b1f9d232f35
         livenessProbe:
           httpGet:
             path: /livez
