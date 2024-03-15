@@ -31,7 +31,7 @@ spec:
         carto.run/workload-name: message-board
     spec:
       containers:
-      - image: us-central1-docker.pkg.dev/tap-sandbox-dev/tapv2-talkative-mongoose/message-board-apps@sha256:d20cb6b6100dc75a23953cadcdb639fd5c8fef0aba87266b58d838f07f70fcb4
+      - image: us-central1-docker.pkg.dev/tap-sandbox-dev/tapv2-generous-topi/message-board-apps@sha256:d66f3d8add64181a90126f477ac5b41872ba47b94f4617eba06bd86543d54162
         name: workload
         resources: {}
         securityContext:
