@@ -16,7 +16,7 @@ spec:
   template:
     metadata:
       annotations:
-        apps.tanzu.vmware.com/correlationid: https://github.com/natarajmb/message-board.git?sub_path=/
+        apps.tanzu.vmware.com/correlationid: https://github.com/billglover/tanzu-message-board?sub_path=/
         autoscaling.knative.dev/minScale: "1"
         conventions.carto.run/applied-conventions: |-
           spring-boot-convention/auto-configure-actuators-check
@@ -31,7 +31,7 @@ spec:
         carto.run/workload-name: message-board
     spec:
       containers:
-      - image: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv2-optimistic-llama/message-board-apps@sha256:dcae176e689a027fbc20a602bc223fbeea1553cb11a0122ad840c5d3aeb55281
+      - image: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv2-optimistic-llama/message-board-apps@sha256:3e6ad5a0204113e5cff5f293eb64ac1627e0536f9cfde3f992a37598086143cb
         name: workload
         resources: {}
         securityContext:
