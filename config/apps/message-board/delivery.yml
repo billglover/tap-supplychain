@@ -25,7 +25,7 @@ spec:
           spring-boot-convention/auto-configure-actuators-check
           spring-boot-convention/is-native-app-check
           spring-boot-convention/app-live-view-appflavour-check
-        developer.apps.tanzu.vmware.com/image-source-digest: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv2-optimistic-llama/lsp:apps-message-board@sha256:a94965a29926ce54f700d248d48ae4f46b369a5885cac4fdaed17a1854bd3c4d
+        developer.apps.tanzu.vmware.com/image-source-digest: main@sha1:72ac375e820fe7244f5f5ce16517f6c5aa1e5254
         developer.conventions/target-containers: workload
       labels:
         app.kubernetes.io/component: run
@@ -35,7 +35,7 @@ spec:
         carto.run/workload-name: message-board
     spec:
       containers:
-      - image: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv2-optimistic-llama/message-board-apps@sha256:ec90b1846e17b950e7b2d1f08678a1964d0ab633d4eee4a6b8f1b76a707ff190
+      - image: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv2-optimistic-llama/message-board-apps@sha256:a886c95a53064a88c188cb5fa355e386953d21444c7b72b428972548c9d449b8
         name: workload
         resources: {}
         securityContext:
