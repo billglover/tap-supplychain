@@ -36,7 +36,7 @@ spec:
         carto.run/workload-name: message-board
     spec:
       containers:
-      - image: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv2-optimistic-llama/message-board-apps@sha256:3e6ad5a0204113e5cff5f293eb64ac1627e0536f9cfde3f992a37598086143cb
+      - image: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv2-optimistic-llama/message-board-apps@sha256:a886c95a53064a88c188cb5fa355e386953d21444c7b72b428972548c9d449b8
         name: workload
         resources: {}
         securityContext:
