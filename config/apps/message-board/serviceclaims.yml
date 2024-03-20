@@ -18,7 +18,6 @@ kind: ServiceBinding
 metadata:
   name: message-board-db
   annotations:
-    local-source-proxy.apps.tanzu.vmware.com: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv2-optimistic-llama/lsp:apps-message-board@sha256:a94965a29926ce54f700d248d48ae4f46b369a5885cac4fdaed17a1854bd3c4d
     autoscaling.knative.dev/minScale: "1"
     kapp.k14s.io/change-group: servicebinding.io/ServiceBindings
   labels:
