@@ -21,6 +21,7 @@ spec:
         conventions.carto.run/applied-conventions: |-
           spring-boot-convention/auto-configure-actuators-check
           spring-boot-convention/is-native-app-check
+          spring-boot-convention/is-prometheus-enabled-check
           spring-boot-convention/app-live-view-appflavour-check
         developer.conventions/target-containers: workload
       labels:
@@ -31,7 +32,7 @@ spec:
         carto.run/workload-name: tanzu-ocr-demo
     spec:
       containers:
-      - image: us-central1-docker.pkg.dev/tap-sandbox-dev/tapv2-responsible-shark/tanzu-ocr-demo-apps@sha256:8344c3c415c121cb04f0955860622d214a96e5940a11575c3708651c74b6d2e7
+      - image: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv2-quick-squirrel/tanzu-ocr-demo-apps@sha256:eb1b489726ee0c202e2267737d7a049914a369835805c70394eb4f3d18858458
         name: workload
         resources: {}
         securityContext:
