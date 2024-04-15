@@ -32,7 +32,7 @@ spec:
         carto.run/workload-name: tanzu-ocr-demo
     spec:
       containers:
-      - image: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv2-quick-squirrel/tanzu-ocr-demo-apps@sha256:cca4df64c7b9e0100b3d5c705c78f73f73bc546513bf82bb8bb7de9620d52453
+      - image: us-east1-docker.pkg.dev/tap-sandbox-dev/tapv2-quick-squirrel/tanzu-ocr-demo-apps@sha256:3efed57791624dbf7b502aa042e235e28e309d36cada5bdc72df110bb8c15021
         name: workload
         resources: {}
         securityContext:
